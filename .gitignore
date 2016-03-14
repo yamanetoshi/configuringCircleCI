@@ -1,0 +1,7 @@
+.bundle
+.DS_Store
+Gemfile.lock
+*.re
+*.pdf
+*~
+vendor
