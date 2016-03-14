@@ -1,3 +1,13 @@
+# はじめに
+
+この資料は [Configuring CircleCI](https://circleci.com/docs/configuration) の記述に関するメモとなります。
+
+# Configuring CircleCI
+
+CircleCI はコードから設定を自動で推論するので、CircleCI の通常の処理はほとんどの状況ではうまく動作します。そうでない場合、circle.yml ファイルはあなたが必要としているものを CircleCI に伝えることを容易にしてくれます。これはあなたの Web アプリに必要ないくつかの調整を記載する単純な YAML ファイルです。
+
+もし、`circle.yml` の設定の方法を簡単に見たい場合には、サンプルファイルをチェックアウトしてください。
+
 ## File structure and content
 
 以下の六つの primary section より作られます。それぞれの section はテスト実行フェーズを表します。
